@@ -1,3 +1,4 @@
+
 public class Student {
 
     private int studentId;
@@ -52,10 +53,24 @@ public class Student {
 
     @Override
     public String toString() {
-        return "ID: " + studentId +
-               " | Name: " + name +
-               " | Age: " + age +
-               " | Course: " + course +
-               " | Marks: " + marks;
+        return String.format(
+                "ID: %-5d | Name: %-20s | Age: %-3d | Course: %-20s | Marks: %.2f | Grade: %s",
+                studentId, name, age, course, marks, getGrade()
+        );
+    }
+
+    public String getGrade() {
+
+        if (marks >= 90) {
+            return "A";
+        } else if (marks >= 80) {
+            return "B";
+        } else if (marks >= 70) {
+            return "C";
+        } else if (marks >= 60) {
+            return "D";
+        } else {
+            return "F";
+        }
     }
 }
