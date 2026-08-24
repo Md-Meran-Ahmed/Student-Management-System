@@ -89,6 +89,21 @@ java StudentManagementSystem
 * Export student records
 * Advanced reporting
 
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main-menu.png)
+
+### Student Records
+![Student Records](screenshots/student-records.png)
+
+### Search, Update and Delete
+![Search Update Delete](screenshots/search-update-delete.png)
+
+### Statistics and Sorting
+![Statistics and Sorting](screenshots/statistics-sorting.png)
+
+
 ## Author
 
 **Mohammed Meran Ahmed**
