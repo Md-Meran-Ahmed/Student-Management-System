@@ -23,8 +23,6 @@ public class StudentManagementSystem {
             System.out.println("4. Update Student");
             System.out.println("5. Delete Student");
             System.out.println("6. Student Statistics");
-            System.out.println("7. Exit");
-            System.out.println("6. Student Statistics");
             System.out.println("7. Sort Students");
             System.out.println("8. Exit");
             System.out.println("=================================");
